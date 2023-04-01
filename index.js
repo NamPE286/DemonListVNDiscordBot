@@ -5,7 +5,7 @@ const CLIENT_ID = process.env.DISCORD_CLIENT_ID
 const { REST, Routes, Client, GatewayIntentBits } = require('discord.js');
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 const supabase = require('@supabase/supabase-js').createClient('https://qdwpenfblwdmhywwszzj.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFkd3BlbmZibHdkbWh5d3dzenpqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY1ODMxOTU4MSwiZXhwIjoxOTczODk1NTgxfQ.wH277cEujuIGitoCFIUI7zmduBmCQQYgqeam2rT9dJA')
-
+//test
 const commands = [
   {
     name: 'ping',
